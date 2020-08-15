@@ -2,7 +2,7 @@
 Boilerplate для написания небольших CRM-систем, в основном построен на компонентах symfony и дополнительных библиотеках
 
 ## Системные требования
-- PHP >= 7.0.0
+- PHP >= 7.4.0
 - PHP Extensions
   - fileinfo
   - iconv
@@ -29,14 +29,13 @@ cd /etc/www
   ```bash
 lemurro new mycrm
 ```
-5. После успешного создания проекта можно переходить к настройке:
-  - [Настройка API-модуля](https://lemurro.github.io/docs/static/latest/API-Сервер/Настройка/Настройка.html)
-  - [Настройка WEB-модуля](https://lemurro.github.io/docs/static/latest/Клиент_Metronic/Настройка/Настройка.html)
-  - [Настройка MOBILE-модуля](https://lemurro.github.io/docs/static/latest/Клиент_Framework7/Настройка/Настройка.html)
+5. После успешного создания проекта можно переходить к настройке (разделы документации):
+  - API-Сервер (api) > Настройка > Настройка
+  - Клиент Metronic (web) > Настройка > Настройка
 
 ## Полный синтаксис команды
 ```bash
-lemurro new mycrm --lv=latest --api --web --mobile --skip --silent
+lemurro new mycrm --lv=latest --api --web --skip --silent
 ```
 Обязательные аргументы и опции:
 - `lemurro new` - команда создания нового проекта
@@ -46,7 +45,6 @@ lemurro new mycrm --lv=latest --api --web --mobile --skip --silent
 Опции установки отдельных модулей, если опцию не указать модуль не будет установлен:
 - `--api` - api-сервер
 - `--web` - web-клиент (браузерный клиент, основан на дизайн-шаблоне [Metronic](https://keenthemes.com/metronic))
-- `--mobile` - mobile-клиент (мобильное приложение, основанное на фреймворке [Framework7](https://framework7.io) и упакованное [Cordova](https://cordova.apache.org))
 
 Не обязательные опции:
 - `--skip` - если используется команда отличная от простого `lemurro new mycrm` (с использованием опций), тогда эта опция отключит вопросы о необходимости выбора устанавливаемых модулей и версии Lemurro
@@ -56,5 +54,4 @@ lemurro new mycrm --lv=latest --api --web --mobile --skip --silent
 - создаст каталог с именем проекта `mycrm`
 - последней стабильной версией Lemurro
 - модулями `api-сервер` и `web-клиент`
-- пропустит вопрос о необходимости установки модуля `mobile-клиент`
 - не станет останавливаться для подтверждения указанных параметров
