@@ -1,4 +1,13 @@
 # Lemurro
+
+[![PHP version](https://img.shields.io/packagist/php-v/Lemurro/api-core.svg)](https://packagist.org/packages/Lemurro/api-core)
+[![License](https://img.shields.io/github/license/Lemurro/api-core.svg)](https://github.com/Lemurro/api-core)
+
+[![Latest Stable Version](https://img.shields.io/packagist/v/Lemurro/api-core.svg)](https://packagist.org/packages/Lemurro/api-core)
+[![Latest Stable Version](https://img.shields.io/npm/v/lemurro-client-metronic-core-frontend.svg)](https://www.npmjs.com/package/lemurro-client-metronic-core-frontend)
+[![NPM Downloads](https://img.shields.io/npm/dt/lemurro-client-metronic-core-frontend.svg)](https://www.npmjs.com/package/lemurro-client-metronic-core-frontend)
+[![NPM Downloads](https://img.shields.io/npm/dm/lemurro-client-metronic-core-frontend.svg)](https://www.npmjs.com/package/lemurro-client-metronic-core-frontend)
+
 Boilerplate для написания небольших CRM-систем, в основном построен на компонентах symfony и дополнительных библиотеках
 
 ## Системные требования
