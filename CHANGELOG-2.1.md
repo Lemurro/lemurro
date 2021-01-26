@@ -30,4 +30,3 @@
 
 ## Устарело
 - **[Composer]** Убраны ненужные полифилы.
-- **[JS]** Библиотека `jquery-tablefilter` устарела и будет удалена в v3.0, переходите на библиотеку [List.js](https://github.com/javve/list.js).
